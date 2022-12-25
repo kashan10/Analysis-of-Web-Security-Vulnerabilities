@@ -7,5 +7,5 @@ Examining the database, where you can extract information about the version and 
 Blind SQL injection, where the results of a query you control are not returned in the application's responses.
 
 
-# DOM XSS in jQuery selector sink using a hashchange event
+# DOM XSS in jQuery selector  - labs
 It uses jQuery's $() selector function to auto-scroll to a given post, whose title is passed via the location.hash property.
