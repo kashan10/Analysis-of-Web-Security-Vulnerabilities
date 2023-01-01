@@ -5,3 +5,7 @@ Subverting application logic, where you can change a query to interfere with the
 UNION attacks, where you can retrieve data from different database tables.
 Examining the database, where you can extract information about the version and structure of the database.
 Blind SQL injection, where the results of a query you control are not returned in the application's responses.
+
+
+# DOM XSS in jQuery selector  - labs
+It uses jQuery's $() selector function to auto-scroll to a given post, whose title is passed via the location.hash property.
