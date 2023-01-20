@@ -63,7 +63,7 @@
 
                    
                     $sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
-                    
+                   
                             try {
 
                                 $result=mysqli_query($con, $sql);
