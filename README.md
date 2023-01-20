@@ -36,5 +36,5 @@ certain characteristics of the request, such as the presence of a certain cookie
 Overall, its important to have a comprehensive logging and monitoring system in place that
 tracks user activity, detect suspicious behavior and notify the administrator.
 
-#jwt verify signature vurnability
+# jwt verify signature vurnability
 This code still gets the JWT from the request headers and calls the decode() method to decode it, but it does not perform any validation or verification on the JWT. It does not check the signature, expiration date, or any other information in the JWT. It's important to note that using this method is not secure and can expose your application to various types of attacks. You should not rely on the decode() method alone to authenticate users or protect sensitive resources.  As I mentioned before, It is not safe to use the decode() method instead of the verify() method. Because this method does not check the signature or the expiration date, you can't trust the information inside the payload if you didn't verify the JWT. It's important to properly validate and verify JWTs to ensure the authenticity and integrity of the information contained in them, and to protect your application from potential attacks.
